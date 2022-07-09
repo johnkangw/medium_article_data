@@ -8,7 +8,7 @@ from sktime.forecasting.naive import NaiveForecaster
 
 app = Dash(__name__)
 
-# Import over data
+# Import over data to analyze
 # Read in and save the raw data
 bike_data = pd.read_csv(r'C:\Users\JKANG1\OneDrive - Cox Automotive\Personal\EdX\Medium Dash articles\bike_data.csv')
 # Clean the data using Pandas methods that are chained together
